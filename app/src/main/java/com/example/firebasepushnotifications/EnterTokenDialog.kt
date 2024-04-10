@@ -1,4 +1,4 @@
-package com.example.firebasepushnotifications.ui
+package com.example.firebasepushnotifications
 
 import android.widget.Toast
 import androidx.compose.foundation.background
