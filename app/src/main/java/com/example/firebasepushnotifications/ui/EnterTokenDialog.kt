@@ -49,9 +49,9 @@ fun EnterTokenDialog(
                 value = token,
                 onValueChange = onTokenChange,
                 modifier = Modifier.fillMaxWidth(),
-//                placeHolder = {
-//                    Text("Remote User Token")
-//                },
+                placeholder = {
+                    Text(text = "Remote user token")
+                },
                 maxLines = 1,
             )
         }
